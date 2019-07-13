@@ -1,0 +1,9 @@
+config broker 'mesh_vpn'
+ ...
+#       Einwahl eth0:
+#       option bind_interface 'br-wan'
+#       Einwahl LTE:
+#       option bind_interface 'wwan0'
+        option bind_interface 'wwan0'
+        option interface 'mesh-vpn'
+        option enabled '1'
