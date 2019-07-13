@@ -1,0 +1,8 @@
+...
+config interface 'wwan'
+        option proto 'qmi'
+        option peerdns '0'
+        option ifname 'wwan0'
+        option device '/dev/cdc-wdm0'
+        option apn 'your apn'
+        option delay '30'
